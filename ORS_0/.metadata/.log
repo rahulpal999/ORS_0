@@ -1,0 +1,1332 @@
+!SESSION 2019-11-16 17:09:04.745 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY com.jaspersoft.studio 4 0 2019-11-16 17:09:09.282
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.jaspersoft.studio [22]
+  Unresolved requirement: Require-Bundle: org.eclipse.nebula.widgets.cdatetime; bundle-version="1.0.0"; visibility:="reexport"
+  Unresolved requirement: Require-Bundle: com.jaspersoft.studio.properties; bundle-version="6.10.0"; visibility:="reexport"
+    -> Bundle-SymbolicName: com.jaspersoft.studio.properties; bundle-version="6.10.0.final"; singleton:="true"
+       com.jaspersoft.studio.properties [40]
+         Unresolved requirement: Import-Package: org.eclipse.wb.swt
+           -> Export-Package: org.eclipse.wb.swt; bundle-symbolic-name="net.sf.jasperreports"; bundle-version="6.10.0.final"; version="0.0.0"; uses:="org.eclipse.swt.graphics,org.eclipse.jface.resource"
+              net.sf.jasperreports [76]
+                Unresolved requirement: Require-Bundle: org.apache.commons.dbcp; bundle-version="1.4.0"; visibility:="reexport"
+                Unresolved requirement: Import-Package: org.apache.commons.lang
+                  -> Export-Package: org.apache.commons.lang; bundle-symbolic-name="com.jaspersoft.studio"; bundle-version="6.10.0.final"; version="0.0.0"
+         Unresolved requirement: Require-Bundle: net.sf.jasperreports; bundle-version="6.10.0"
+           -> Bundle-SymbolicName: net.sf.jasperreports; bundle-version="6.10.0.final"; singleton:="true"
+  Unresolved requirement: Require-Bundle: net.sf.jasperreports; bundle-version="6.10.0"; visibility:="reexport"
+    -> Bundle-SymbolicName: net.sf.jasperreports; bundle-version="6.10.0.final"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1620)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1599)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1571)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1514)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.jaspersoft.studio.book 4 0 2019-11-16 17:09:09.362
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.jaspersoft.studio.book [24]
+  Unresolved requirement: Require-Bundle: com.jaspersoft.studio; bundle-version="6.10.0"; visibility:="reexport"
+    -> Bundle-SymbolicName: com.jaspersoft.studio; bundle-version="6.10.0.final"; singleton:="true"
+       com.jaspersoft.studio [22]
+         Unresolved requirement: Require-Bundle: org.eclipse.nebula.widgets.cdatetime; bundle-version="1.0.0"; visibility:="reexport"
+         Unresolved requirement: Require-Bundle: com.jaspersoft.studio.properties; bundle-version="6.10.0"; visibility:="reexport"
+           -> Bundle-SymbolicName: com.jaspersoft.studio.properties; bundle-version="6.10.0.final"; singleton:="true"
+              com.jaspersoft.studio.properties [40]
+                Unresolved requirement: Import-Package: org.eclipse.wb.swt
+                  -> Export-Package: org.eclipse.wb.swt; bundle-symbolic-name="net.sf.jasperreports"; bundle-version="6.10.0.final"; version="0.0.0"; uses:="org.eclipse.swt.graphics,org.eclipse.jface.resource"
+                     net.sf.jasperreports [76]
+                       Unresolved requirement: Require-Bundle: org.apache.commons.dbcp; bundle-version="1.4.0"; visibility:="reexport"
+                       Unresolved requirement: Import-Package: org.apache.commons.lang
+                         -> Export-Package: org.apache.commons.lang; bundle-symbolic-name="com.jaspersoft.studio"; bundle-version="6.10.0.final"; version="0.0.0"
+                Unresolved requirement: Require-Bundle: net.sf.jasperreports; bundle-version="6.10.0"
+                  -> Bundle-SymbolicName: net.sf.jasperreports; bundle-version="6.10.0.final"; singleton:="true"
+         Unresolved requirement: Require-Bundle: net.sf.jasperreports; bundle-version="6.10.0"; visibility:="reexport"
+           -> Bundle-SymbolicName: net.sf.jasperreports; bundle-version="6.10.0.final"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1620)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1599)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1571)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1514)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.jaspersoft.studio.community 4 0 2019-11-16 17:09:09.399
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.jaspersoft.studio.community [27]
+  Unresolved requirement: Require-Bundle: com.jaspersoft.studio; bundle-version="6.10.0"
+    -> Bundle-SymbolicName: com.jaspersoft.studio; bundle-version="6.10.0.final"; singleton:="true"
+       com.jaspersoft.studio [22]
+         Unresolved requirement: Require-Bundle: org.eclipse.nebula.widgets.cdatetime; bundle-version="1.0.0"; visibility:="reexport"
+         Unresolved requirement: Require-Bundle: com.jaspersoft.studio.properties; bundle-version="6.10.0"; visibility:="reexport"
+           -> Bundle-SymbolicName: com.jaspersoft.studio.properties; bundle-version="6.10.0.final"; singleton:="true"
+              com.jaspersoft.studio.properties [40]
+                Unresolved requirement: Import-Package: org.eclipse.wb.swt
+                  -> Export-Package: org.eclipse.wb.swt; bundle-symbolic-name="net.sf.jasperreports"; bundle-version="6.10.0.final"; version="0.0.0"; uses:="org.eclipse.swt.graphics,org.eclipse.jface.resource"
+                     net.sf.jasperreports [76]
+                       Unresolved requirement: Require-Bundle: org.apache.commons.dbcp; bundle-version="1.4.0"; visibility:="reexport"
+                       Unresolved requirement: Import-Package: org.apache.commons.lang
+                         -> Export-Package: org.apache.commons.lang; bundle-symbolic-name="com.jaspersoft.studio"; bundle-version="6.10.0.final"; version="0.0.0"
+                Unresolved requirement: Require-Bundle: net.sf.jasperreports; bundle-version="6.10.0"
+                  -> Bundle-SymbolicName: net.sf.jasperreports; bundle-version="6.10.0.final"; singleton:="true"
+         Unresolved requirement: Require-Bundle: net.sf.jasperreports; bundle-version="6.10.0"; visibility:="reexport"
+           -> Bundle-SymbolicName: net.sf.jasperreports; bundle-version="6.10.0.final"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1620)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1599)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1571)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1514)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.jaspersoft.studio.components 4 0 2019-11-16 17:09:09.482
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.jaspersoft.studio.components [28]
+  Unresolved requirement: Require-Bundle: com.jaspersoft.studio; bundle-version="6.10.0"
+    -> Bundle-SymbolicName: com.jaspersoft.studio; bundle-version="6.10.0.final"; singleton:="true"
+       com.jaspersoft.studio [22]
+         Unresolved requirement: Require-Bundle: org.eclipse.nebula.widgets.cdatetime; bundle-version="1.0.0"; visibility:="reexport"
+         Unresolved requirement: Require-Bundle: com.jaspersoft.studio.properties; bundle-version="6.10.0"; visibility:="reexport"
+           -> Bundle-SymbolicName: com.jaspersoft.studio.properties; bundle-version="6.10.0.final"; singleton:="true"
+              com.jaspersoft.studio.properties [40]
+                Unresolved requirement: Import-Package: org.eclipse.wb.swt
+                  -> Export-Package: org.eclipse.wb.swt; bundle-symbolic-name="net.sf.jasperreports"; bundle-version="6.10.0.final"; version="0.0.0"; uses:="org.eclipse.swt.graphics,org.eclipse.jface.resource"
+                     net.sf.jasperreports [76]
+                       Unresolved requirement: Require-Bundle: org.apache.commons.dbcp; bundle-version="1.4.0"; visibility:="reexport"
+                       Unresolved requirement: Import-Package: org.apache.commons.lang
+                         -> Export-Package: org.apache.commons.lang; bundle-symbolic-name="com.jaspersoft.studio"; bundle-version="6.10.0.final"; version="0.0.0"
+                Unresolved requirement: Require-Bundle: net.sf.jasperreports; bundle-version="6.10.0"
+                  -> Bundle-SymbolicName: net.sf.jasperreports; bundle-version="6.10.0.final"; singleton:="true"
+         Unresolved requirement: Require-Bundle: net.sf.jasperreports; bundle-version="6.10.0"; visibility:="reexport"
+           -> Bundle-SymbolicName: net.sf.jasperreports; bundle-version="6.10.0.final"; singleton:="true"
+  Unresolved requirement: Require-Bundle: com.jaspersoft.studio.widgets.map; bundle-version="6.10.0"
+    -> Bundle-SymbolicName: com.jaspersoft.studio.widgets.map; bundle-version="6.10.0.final"
+       com.jaspersoft.studio.widgets.map [44]
+         Unresolved requirement: Require-Bundle: com.jaspersoft.studio; bundle-version="6.10.0"
+           -> Bundle-SymbolicName: com.jaspersoft.studio; bundle-version="6.10.0.final"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1620)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1599)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1571)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1514)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.jaspersoft.studio.components.customvisualization 4 0 2019-11-16 17:09:09.582
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.jaspersoft.studio.components.customvisualization [29]
+  Unresolved requirement: Require-Bundle: com.jaspersoft.studio.server; bundle-version="6.10.0"
+    -> Bundle-SymbolicName: com.jaspersoft.studio.server; bundle-version="6.10.0.final"; singleton:="true"
+       com.jaspersoft.studio.server [41]
+         Unresolved requirement: Import-Package: com.jaspersoft.studio.components.chart.property.descriptor
+           -> Export-Package: com.jaspersoft.studio.components.chart.property.descriptor; bundle-symbolic-name="com.jaspersoft.studio.components"; bundle-version="6.10.0.final"; version="0.0.0"
+              com.jaspersoft.studio.components [28]
+                Unresolved requirement: Require-Bundle: com.jaspersoft.studio; bundle-version="6.10.0"
+                  -> Bundle-SymbolicName: com.jaspersoft.studio; bundle-version="6.10.0.final"; singleton:="true"
+                     com.jaspersoft.studio [22]
+                       Unresolved requirement: Require-Bundle: org.eclipse.nebula.widgets.cdatetime; bundle-version="1.0.0"; visibility:="reexport"
+                       Unresolved requirement: Require-Bundle: com.jaspersoft.studio.properties; bundle-version="6.10.0"; visibility:="reexport"
+                         -> Bundle-SymbolicName: com.jaspersoft.studio.properties; bundle-version="6.10.0.final"; singleton:="true"
+                            com.jaspersoft.studio.properties [40]
+                              Unresolved requirement: Import-Package: org.eclipse.wb.swt
+                                -> Export-Package: org.eclipse.wb.swt; bundle-symbolic-name="net.sf.jasperreports"; bundle-version="6.10.0.final"; version="0.0.0"; uses:="org.eclipse.swt.graphics,org.eclipse.jface.resource"
+                                   net.sf.jasperreports [76]
+                                     Unresolved requirement: Require-Bundle: org.apache.commons.dbcp; bundle-version="1.4.0"; visibility:="reexport"
+                                     Unresolved requirement: Import-Package: org.apache.commons.lang
+                                       -> Export-Package: org.apache.commons.lang; bundle-symbolic-name="com.jaspersoft.studio"; bundle-version="6.10.0.final"; version="0.0.0"
+                              Unresolved requirement: Require-Bundle: net.sf.jasperreports; bundle-version="6.10.0"
+                                -> Bundle-SymbolicName: net.sf.jasperreports; bundle-version="6.10.0.final"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: net.sf.jasperreports; bundle-version="6.10.0"; visibility:="reexport"
+                         -> Bundle-SymbolicName: net.sf.jasperreports; bundle-version="6.10.0.final"; singleton:="true"
+         Unresolved requirement: Require-Bundle: com.jaspersoft.studio; bundle-version="6.10.0"; visibility:="reexport"
+           -> Bundle-SymbolicName: com.jaspersoft.studio; bundle-version="6.10.0.final"; singleton:="true"
+  Unresolved requirement: Require-Bundle: com.jaspersoft.studio; bundle-version="6.10.0"
+    -> Bundle-SymbolicName: com.jaspersoft.studio; bundle-version="6.10.0.final"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1620)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1599)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1571)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1514)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.jaspersoft.studio.data 4 0 2019-11-16 17:09:09.602
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.jaspersoft.studio.data [30]
+  Unresolved requirement: Require-Bundle: com.jaspersoft.studio; bundle-version="6.10.0"; visibility:="reexport"
+    -> Bundle-SymbolicName: com.jaspersoft.studio; bundle-version="6.10.0.final"; singleton:="true"
+       com.jaspersoft.studio [22]
+         Unresolved requirement: Require-Bundle: org.eclipse.nebula.widgets.cdatetime; bundle-version="1.0.0"; visibility:="reexport"
+         Unresolved requirement: Require-Bundle: com.jaspersoft.studio.properties; bundle-version="6.10.0"; visibility:="reexport"
+           -> Bundle-SymbolicName: com.jaspersoft.studio.properties; bundle-version="6.10.0.final"; singleton:="true"
+              com.jaspersoft.studio.properties [40]
+                Unresolved requirement: Import-Package: org.eclipse.wb.swt
+                  -> Export-Package: org.eclipse.wb.swt; bundle-symbolic-name="net.sf.jasperreports"; bundle-version="6.10.0.final"; version="0.0.0"; uses:="org.eclipse.swt.graphics,org.eclipse.jface.resource"
+                     net.sf.jasperreports [76]
+                       Unresolved requirement: Require-Bundle: org.apache.commons.dbcp; bundle-version="1.4.0"; visibility:="reexport"
+                       Unresolved requirement: Import-Package: org.apache.commons.lang
+                         -> Export-Package: org.apache.commons.lang; bundle-symbolic-name="com.jaspersoft.studio"; bundle-version="6.10.0.final"; version="0.0.0"
+                Unresolved requirement: Require-Bundle: net.sf.jasperreports; bundle-version="6.10.0"
+                  -> Bundle-SymbolicName: net.sf.jasperreports; bundle-version="6.10.0.final"; singleton:="true"
+         Unresolved requirement: Require-Bundle: net.sf.jasperreports; bundle-version="6.10.0"; visibility:="reexport"
+           -> Bundle-SymbolicName: net.sf.jasperreports; bundle-version="6.10.0.final"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1620)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1599)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1571)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1514)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.jaspersoft.studio.data.drivers 4 0 2019-11-16 17:09:09.653
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.jaspersoft.studio.data.drivers [31]
+  Unresolved requirement: Require-Bundle: com.jaspersoft.studio.data; bundle-version="6.10.0"
+    -> Bundle-SymbolicName: com.jaspersoft.studio.data; bundle-version="6.10.0.final"; singleton:="true"
+       com.jaspersoft.studio.data [30]
+         Unresolved requirement: Require-Bundle: com.jaspersoft.studio; bundle-version="6.10.0"; visibility:="reexport"
+           -> Bundle-SymbolicName: com.jaspersoft.studio; bundle-version="6.10.0.final"; singleton:="true"
+              com.jaspersoft.studio [22]
+                Unresolved requirement: Require-Bundle: org.eclipse.nebula.widgets.cdatetime; bundle-version="1.0.0"; visibility:="reexport"
+                Unresolved requirement: Require-Bundle: com.jaspersoft.studio.properties; bundle-version="6.10.0"; visibility:="reexport"
+                  -> Bundle-SymbolicName: com.jaspersoft.studio.properties; bundle-version="6.10.0.final"; singleton:="true"
+                     com.jaspersoft.studio.properties [40]
+                       Unresolved requirement: Import-Package: org.eclipse.wb.swt
+                         -> Export-Package: org.eclipse.wb.swt; bundle-symbolic-name="net.sf.jasperreports"; bundle-version="6.10.0.final"; version="0.0.0"; uses:="org.eclipse.swt.graphics,org.eclipse.jface.resource"
+                            net.sf.jasperreports [76]
+                              Unresolved requirement: Require-Bundle: org.apache.commons.dbcp; bundle-version="1.4.0"; visibility:="reexport"
+                              Unresolved requirement: Import-Package: org.apache.commons.lang
+                                -> Export-Package: org.apache.commons.lang; bundle-symbolic-name="com.jaspersoft.studio"; bundle-version="6.10.0.final"; version="0.0.0"
+                       Unresolved requirement: Require-Bundle: net.sf.jasperreports; bundle-version="6.10.0"
+                         -> Bundle-SymbolicName: net.sf.jasperreports; bundle-version="6.10.0.final"; singleton:="true"
+                Unresolved requirement: Require-Bundle: net.sf.jasperreports; bundle-version="6.10.0"; visibility:="reexport"
+                  -> Bundle-SymbolicName: net.sf.jasperreports; bundle-version="6.10.0.final"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1620)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1599)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1571)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1514)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.jaspersoft.studio.data.mongodb 4 0 2019-11-16 17:09:09.743
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.jaspersoft.studio.data.mongodb [32]
+  Unresolved requirement: Require-Bundle: com.jaspersoft.studio.data; bundle-version="6.10.0"; visibility:="reexport"
+    -> Bundle-SymbolicName: com.jaspersoft.studio.data; bundle-version="6.10.0.final"; singleton:="true"
+       com.jaspersoft.studio.data [30]
+         Unresolved requirement: Require-Bundle: com.jaspersoft.studio; bundle-version="6.10.0"; visibility:="reexport"
+           -> Bundle-SymbolicName: com.jaspersoft.studio; bundle-version="6.10.0.final"; singleton:="true"
+              com.jaspersoft.studio [22]
+                Unresolved requirement: Require-Bundle: org.eclipse.nebula.widgets.cdatetime; bundle-version="1.0.0"; visibility:="reexport"
+                Unresolved requirement: Require-Bundle: com.jaspersoft.studio.properties; bundle-version="6.10.0"; visibility:="reexport"
+                  -> Bundle-SymbolicName: com.jaspersoft.studio.properties; bundle-version="6.10.0.final"; singleton:="true"
+                     com.jaspersoft.studio.properties [40]
+                       Unresolved requirement: Import-Package: org.eclipse.wb.swt
+                         -> Export-Package: org.eclipse.wb.swt; bundle-symbolic-name="net.sf.jasperreports"; bundle-version="6.10.0.final"; version="0.0.0"; uses:="org.eclipse.swt.graphics,org.eclipse.jface.resource"
+                            net.sf.jasperreports [76]
+                              Unresolved requirement: Require-Bundle: org.apache.commons.dbcp; bundle-version="1.4.0"; visibility:="reexport"
+                              Unresolved requirement: Import-Package: org.apache.commons.lang
+                                -> Export-Package: org.apache.commons.lang; bundle-symbolic-name="com.jaspersoft.studio"; bundle-version="6.10.0.final"; version="0.0.0"
+                       Unresolved requirement: Require-Bundle: net.sf.jasperreports; bundle-version="6.10.0"
+                         -> Bundle-SymbolicName: net.sf.jasperreports; bundle-version="6.10.0.final"; singleton:="true"
+                Unresolved requirement: Require-Bundle: net.sf.jasperreports; bundle-version="6.10.0"; visibility:="reexport"
+                  -> Bundle-SymbolicName: net.sf.jasperreports; bundle-version="6.10.0.final"; singleton:="true"
+  Unresolved requirement: Require-Bundle: com.jaspersoft.studio.server; bundle-version="6.10.0"
+    -> Bundle-SymbolicName: com.jaspersoft.studio.server; bundle-version="6.10.0.final"; singleton:="true"
+       com.jaspersoft.studio.server [41]
+         Unresolved requirement: Import-Package: com.jaspersoft.studio.components.chart.property.descriptor
+           -> Export-Package: com.jaspersoft.studio.components.chart.property.descriptor; bundle-symbolic-name="com.jaspersoft.studio.components"; bundle-version="6.10.0.final"; version="0.0.0"
+              com.jaspersoft.studio.components [28]
+                Unresolved requirement: Require-Bundle: com.jaspersoft.studio; bundle-version="6.10.0"
+                  -> Bundle-SymbolicName: com.jaspersoft.studio; bundle-version="6.10.0.final"; singleton:="true"
+         Unresolved requirement: Require-Bundle: com.jaspersoft.studio; bundle-version="6.10.0"; visibility:="reexport"
+           -> Bundle-SymbolicName: com.jaspersoft.studio; bundle-version="6.10.0.final"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1620)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1599)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1571)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1514)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.jaspersoft.studio.data.sql 4 0 2019-11-16 17:09:09.878
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.jaspersoft.studio.data.sql [33]
+  Unresolved requirement: Require-Bundle: org.eclipse.xtext.generator; bundle-version="2.8.4"; resolution:="optional"
+  Unresolved requirement: Require-Bundle: org.eclipse.emf.mwe2.launch; resolution:="optional"
+  Unresolved requirement: Require-Bundle: org.eclipse.xtext; bundle-version="2.8.4"
+  Unresolved requirement: Require-Bundle: com.jaspersoft.studio.data; bundle-version="6.10.0"
+    -> Bundle-SymbolicName: com.jaspersoft.studio.data; bundle-version="6.10.0.final"; singleton:="true"
+       com.jaspersoft.studio.data [30]
+         Unresolved requirement: Require-Bundle: com.jaspersoft.studio; bundle-version="6.10.0"; visibility:="reexport"
+           -> Bundle-SymbolicName: com.jaspersoft.studio; bundle-version="6.10.0.final"; singleton:="true"
+              com.jaspersoft.studio [22]
+                Unresolved requirement: Require-Bundle: org.eclipse.nebula.widgets.cdatetime; bundle-version="1.0.0"; visibility:="reexport"
+                Unresolved requirement: Require-Bundle: com.jaspersoft.studio.properties; bundle-version="6.10.0"; visibility:="reexport"
+                  -> Bundle-SymbolicName: com.jaspersoft.studio.properties; bundle-version="6.10.0.final"; singleton:="true"
+                     com.jaspersoft.studio.properties [40]
+                       Unresolved requirement: Import-Package: org.eclipse.wb.swt
+                         -> Export-Package: org.eclipse.wb.swt; bundle-symbolic-name="net.sf.jasperreports"; bundle-version="6.10.0.final"; version="0.0.0"; uses:="org.eclipse.swt.graphics,org.eclipse.jface.resource"
+                            net.sf.jasperreports [76]
+                              Unresolved requirement: Require-Bundle: org.apache.commons.dbcp; bundle-version="1.4.0"; visibility:="reexport"
+                              Unresolved requirement: Import-Package: org.apache.commons.lang
+                                -> Export-Package: org.apache.commons.lang; bundle-symbolic-name="com.jaspersoft.studio"; bundle-version="6.10.0.final"; version="0.0.0"
+                       Unresolved requirement: Require-Bundle: net.sf.jasperreports; bundle-version="6.10.0"
+                         -> Bundle-SymbolicName: net.sf.jasperreports; bundle-version="6.10.0.final"; singleton:="true"
+                Unresolved requirement: Require-Bundle: net.sf.jasperreports; bundle-version="6.10.0"; visibility:="reexport"
+                  -> Bundle-SymbolicName: net.sf.jasperreports; bundle-version="6.10.0.final"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1620)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1599)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1571)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1514)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.jaspersoft.studio.data.sql.ui 4 0 2019-11-16 17:09:10.000
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.jaspersoft.studio.data.sql.ui [34]
+  Unresolved requirement: Import-Package: org.eclipse.xtext.xbase.lib
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1620)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1599)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1571)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1514)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.jaspersoft.studio.editor.jrexpressions 4 0 2019-11-16 17:09:10.067
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.jaspersoft.studio.editor.jrexpressions [37]
+  Unresolved requirement: Require-Bundle: org.eclipse.xtext.ui; bundle-version="2.8.4"
+  Unresolved requirement: Require-Bundle: com.jaspersoft.studio; bundle-version="6.10.0"; visibility:="reexport"
+    -> Bundle-SymbolicName: com.jaspersoft.studio; bundle-version="6.10.0.final"; singleton:="true"
+       com.jaspersoft.studio [22]
+         Unresolved requirement: Require-Bundle: org.eclipse.nebula.widgets.cdatetime; bundle-version="1.0.0"; visibility:="reexport"
+         Unresolved requirement: Require-Bundle: com.jaspersoft.studio.properties; bundle-version="6.10.0"; visibility:="reexport"
+           -> Bundle-SymbolicName: com.jaspersoft.studio.properties; bundle-version="6.10.0.final"; singleton:="true"
+              com.jaspersoft.studio.properties [40]
+                Unresolved requirement: Import-Package: org.eclipse.wb.swt
+                  -> Export-Package: org.eclipse.wb.swt; bundle-symbolic-name="net.sf.jasperreports"; bundle-version="6.10.0.final"; version="0.0.0"; uses:="org.eclipse.swt.graphics,org.eclipse.jface.resource"
+                     net.sf.jasperreports [76]
+                       Unresolved requirement: Require-Bundle: org.apache.commons.dbcp; bundle-version="1.4.0"; visibility:="reexport"
+                       Unresolved requirement: Import-Package: org.apache.commons.lang
+                         -> Export-Package: org.apache.commons.lang; bundle-symbolic-name="com.jaspersoft.studio"; bundle-version="6.10.0.final"; version="0.0.0"
+                Unresolved requirement: Require-Bundle: net.sf.jasperreports; bundle-version="6.10.0"
+                  -> Bundle-SymbolicName: net.sf.jasperreports; bundle-version="6.10.0.final"; singleton:="true"
+         Unresolved requirement: Require-Bundle: net.sf.jasperreports; bundle-version="6.10.0"; visibility:="reexport"
+           -> Bundle-SymbolicName: net.sf.jasperreports; bundle-version="6.10.0.final"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1620)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1599)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1571)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1514)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.jaspersoft.studio.editor.jrexpressions.ui 4 0 2019-11-16 17:09:10.094
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.jaspersoft.studio.editor.jrexpressions.ui [38]
+  Unresolved requirement: Require-Bundle: org.eclipse.xtext.ui; bundle-version="2.8.4"
+  Unresolved requirement: Require-Bundle: com.jaspersoft.studio.editor.jrexpressions; bundle-version="6.10.0"
+    -> Bundle-SymbolicName: com.jaspersoft.studio.editor.jrexpressions; bundle-version="6.10.0.final"; singleton:="true"
+       com.jaspersoft.studio.editor.jrexpressions [37]
+         Unresolved requirement: Require-Bundle: org.eclipse.xtext.ui; bundle-version="2.8.4"
+         Unresolved requirement: Require-Bundle: com.jaspersoft.studio; bundle-version="6.10.0"; visibility:="reexport"
+           -> Bundle-SymbolicName: com.jaspersoft.studio; bundle-version="6.10.0.final"; singleton:="true"
+              com.jaspersoft.studio [22]
+                Unresolved requirement: Require-Bundle: org.eclipse.nebula.widgets.cdatetime; bundle-version="1.0.0"; visibility:="reexport"
+                Unresolved requirement: Require-Bundle: com.jaspersoft.studio.properties; bundle-version="6.10.0"; visibility:="reexport"
+                  -> Bundle-SymbolicName: com.jaspersoft.studio.properties; bundle-version="6.10.0.final"; singleton:="true"
+                     com.jaspersoft.studio.properties [40]
+                       Unresolved requirement: Import-Package: org.eclipse.wb.swt
+                         -> Export-Package: org.eclipse.wb.swt; bundle-symbolic-name="net.sf.jasperreports"; bundle-version="6.10.0.final"; version="0.0.0"; uses:="org.eclipse.swt.graphics,org.eclipse.jface.resource"
+                            net.sf.jasperreports [76]
+                              Unresolved requirement: Require-Bundle: org.apache.commons.dbcp; bundle-version="1.4.0"; visibility:="reexport"
+                              Unresolved requirement: Import-Package: org.apache.commons.lang
+                                -> Export-Package: org.apache.commons.lang; bundle-symbolic-name="com.jaspersoft.studio"; bundle-version="6.10.0.final"; version="0.0.0"
+                       Unresolved requirement: Require-Bundle: net.sf.jasperreports; bundle-version="6.10.0"
+                         -> Bundle-SymbolicName: net.sf.jasperreports; bundle-version="6.10.0.final"; singleton:="true"
+                Unresolved requirement: Require-Bundle: net.sf.jasperreports; bundle-version="6.10.0"; visibility:="reexport"
+                  -> Bundle-SymbolicName: net.sf.jasperreports; bundle-version="6.10.0.final"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1620)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1599)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1571)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1514)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.jaspersoft.studio.html 4 0 2019-11-16 17:09:10.112
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.jaspersoft.studio.html [39]
+  Unresolved requirement: Require-Bundle: com.jaspersoft.studio; bundle-version="6.10.0"
+    -> Bundle-SymbolicName: com.jaspersoft.studio; bundle-version="6.10.0.final"; singleton:="true"
+       com.jaspersoft.studio [22]
+         Unresolved requirement: Require-Bundle: org.eclipse.nebula.widgets.cdatetime; bundle-version="1.0.0"; visibility:="reexport"
+         Unresolved requirement: Require-Bundle: com.jaspersoft.studio.properties; bundle-version="6.10.0"; visibility:="reexport"
+           -> Bundle-SymbolicName: com.jaspersoft.studio.properties; bundle-version="6.10.0.final"; singleton:="true"
+              com.jaspersoft.studio.properties [40]
+                Unresolved requirement: Import-Package: org.eclipse.wb.swt
+                  -> Export-Package: org.eclipse.wb.swt; bundle-symbolic-name="net.sf.jasperreports"; bundle-version="6.10.0.final"; version="0.0.0"; uses:="org.eclipse.swt.graphics,org.eclipse.jface.resource"
+                     net.sf.jasperreports [76]
+                       Unresolved requirement: Require-Bundle: org.apache.commons.dbcp; bundle-version="1.4.0"; visibility:="reexport"
+                       Unresolved requirement: Import-Package: org.apache.commons.lang
+                         -> Export-Package: org.apache.commons.lang; bundle-symbolic-name="com.jaspersoft.studio"; bundle-version="6.10.0.final"; version="0.0.0"
+                Unresolved requirement: Require-Bundle: net.sf.jasperreports; bundle-version="6.10.0"
+                  -> Bundle-SymbolicName: net.sf.jasperreports; bundle-version="6.10.0.final"; singleton:="true"
+         Unresolved requirement: Require-Bundle: net.sf.jasperreports; bundle-version="6.10.0"; visibility:="reexport"
+           -> Bundle-SymbolicName: net.sf.jasperreports; bundle-version="6.10.0.final"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1620)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1599)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1571)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1514)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.jaspersoft.studio.properties 4 0 2019-11-16 17:09:10.125
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.jaspersoft.studio.properties [40]
+  Unresolved requirement: Import-Package: org.eclipse.wb.swt
+    -> Export-Package: org.eclipse.wb.swt; bundle-symbolic-name="net.sf.jasperreports"; bundle-version="6.10.0.final"; version="0.0.0"; uses:="org.eclipse.swt.graphics,org.eclipse.jface.resource"
+       net.sf.jasperreports [76]
+         Unresolved requirement: Require-Bundle: org.apache.commons.dbcp; bundle-version="1.4.0"; visibility:="reexport"
+         Unresolved requirement: Import-Package: org.apache.commons.lang
+           -> Export-Package: org.apache.commons.lang; bundle-symbolic-name="com.jaspersoft.studio"; bundle-version="6.10.0.final"; version="0.0.0"
+              com.jaspersoft.studio [22]
+                Unresolved requirement: Require-Bundle: org.eclipse.nebula.widgets.cdatetime; bundle-version="1.0.0"; visibility:="reexport"
+                Unresolved requirement: Require-Bundle: com.jaspersoft.studio.properties; bundle-version="6.10.0"; visibility:="reexport"
+                  -> Bundle-SymbolicName: com.jaspersoft.studio.properties; bundle-version="6.10.0.final"; singleton:="true"
+                Unresolved requirement: Require-Bundle: net.sf.jasperreports; bundle-version="6.10.0"; visibility:="reexport"
+                  -> Bundle-SymbolicName: net.sf.jasperreports; bundle-version="6.10.0.final"; singleton:="true"
+  Unresolved requirement: Require-Bundle: net.sf.jasperreports; bundle-version="6.10.0"
+    -> Bundle-SymbolicName: net.sf.jasperreports; bundle-version="6.10.0.final"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1620)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1599)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1571)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1514)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.jaspersoft.studio.server 4 0 2019-11-16 17:09:10.140
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.jaspersoft.studio.server [41]
+  Unresolved requirement: Import-Package: com.jaspersoft.studio.components.chart.property.descriptor
+    -> Export-Package: com.jaspersoft.studio.components.chart.property.descriptor; bundle-symbolic-name="com.jaspersoft.studio.components"; bundle-version="6.10.0.final"; version="0.0.0"
+       com.jaspersoft.studio.components [28]
+         Unresolved requirement: Require-Bundle: com.jaspersoft.studio; bundle-version="6.10.0"
+           -> Bundle-SymbolicName: com.jaspersoft.studio; bundle-version="6.10.0.final"; singleton:="true"
+              com.jaspersoft.studio [22]
+                Unresolved requirement: Require-Bundle: org.eclipse.nebula.widgets.cdatetime; bundle-version="1.0.0"; visibility:="reexport"
+                Unresolved requirement: Require-Bundle: com.jaspersoft.studio.properties; bundle-version="6.10.0"; visibility:="reexport"
+                  -> Bundle-SymbolicName: com.jaspersoft.studio.properties; bundle-version="6.10.0.final"; singleton:="true"
+                     com.jaspersoft.studio.properties [40]
+                       Unresolved requirement: Import-Package: org.eclipse.wb.swt
+                         -> Export-Package: org.eclipse.wb.swt; bundle-symbolic-name="net.sf.jasperreports"; bundle-version="6.10.0.final"; version="0.0.0"; uses:="org.eclipse.swt.graphics,org.eclipse.jface.resource"
+                            net.sf.jasperreports [76]
+                              Unresolved requirement: Require-Bundle: org.apache.commons.dbcp; bundle-version="1.4.0"; visibility:="reexport"
+                              Unresolved requirement: Import-Package: org.apache.commons.lang
+                                -> Export-Package: org.apache.commons.lang; bundle-symbolic-name="com.jaspersoft.studio"; bundle-version="6.10.0.final"; version="0.0.0"
+                       Unresolved requirement: Require-Bundle: net.sf.jasperreports; bundle-version="6.10.0"
+                         -> Bundle-SymbolicName: net.sf.jasperreports; bundle-version="6.10.0.final"; singleton:="true"
+                Unresolved requirement: Require-Bundle: net.sf.jasperreports; bundle-version="6.10.0"; visibility:="reexport"
+                  -> Bundle-SymbolicName: net.sf.jasperreports; bundle-version="6.10.0.final"; singleton:="true"
+         Unresolved requirement: Require-Bundle: com.jaspersoft.studio.widgets.map; bundle-version="6.10.0"
+           -> Bundle-SymbolicName: com.jaspersoft.studio.widgets.map; bundle-version="6.10.0.final"
+              com.jaspersoft.studio.widgets.map [44]
+                Unresolved requirement: Require-Bundle: com.jaspersoft.studio; bundle-version="6.10.0"
+                  -> Bundle-SymbolicName: com.jaspersoft.studio; bundle-version="6.10.0.final"; singleton:="true"
+  Unresolved requirement: Require-Bundle: com.jaspersoft.studio; bundle-version="6.10.0"; visibility:="reexport"
+    -> Bundle-SymbolicName: com.jaspersoft.studio; bundle-version="6.10.0.final"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1620)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1599)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1571)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1514)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.jaspersoft.studio.server.soap 4 0 2019-11-16 17:09:10.160
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.jaspersoft.studio.server.soap [42]
+  Unresolved requirement: Require-Bundle: com.jaspersoft.studio.server; bundle-version="6.10.0"
+    -> Bundle-SymbolicName: com.jaspersoft.studio.server; bundle-version="6.10.0.final"; singleton:="true"
+       com.jaspersoft.studio.server [41]
+         Unresolved requirement: Import-Package: com.jaspersoft.studio.components.chart.property.descriptor
+           -> Export-Package: com.jaspersoft.studio.components.chart.property.descriptor; bundle-symbolic-name="com.jaspersoft.studio.components"; bundle-version="6.10.0.final"; version="0.0.0"
+              com.jaspersoft.studio.components [28]
+                Unresolved requirement: Require-Bundle: com.jaspersoft.studio; bundle-version="6.10.0"
+                  -> Bundle-SymbolicName: com.jaspersoft.studio; bundle-version="6.10.0.final"; singleton:="true"
+                     com.jaspersoft.studio [22]
+                       Unresolved requirement: Require-Bundle: org.eclipse.nebula.widgets.cdatetime; bundle-version="1.0.0"; visibility:="reexport"
+                       Unresolved requirement: Require-Bundle: com.jaspersoft.studio.properties; bundle-version="6.10.0"; visibility:="reexport"
+                         -> Bundle-SymbolicName: com.jaspersoft.studio.properties; bundle-version="6.10.0.final"; singleton:="true"
+                            com.jaspersoft.studio.properties [40]
+                              Unresolved requirement: Import-Package: org.eclipse.wb.swt
+                                -> Export-Package: org.eclipse.wb.swt; bundle-symbolic-name="net.sf.jasperreports"; bundle-version="6.10.0.final"; version="0.0.0"; uses:="org.eclipse.swt.graphics,org.eclipse.jface.resource"
+                                   net.sf.jasperreports [76]
+                                     Unresolved requirement: Require-Bundle: org.apache.commons.dbcp; bundle-version="1.4.0"; visibility:="reexport"
+                                     Unresolved requirement: Import-Package: org.apache.commons.lang
+                                       -> Export-Package: org.apache.commons.lang; bundle-symbolic-name="com.jaspersoft.studio"; bundle-version="6.10.0.final"; version="0.0.0"
+                              Unresolved requirement: Require-Bundle: net.sf.jasperreports; bundle-version="6.10.0"
+                                -> Bundle-SymbolicName: net.sf.jasperreports; bundle-version="6.10.0.final"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: net.sf.jasperreports; bundle-version="6.10.0"; visibility:="reexport"
+                         -> Bundle-SymbolicName: net.sf.jasperreports; bundle-version="6.10.0.final"; singleton:="true"
+                Unresolved requirement: Require-Bundle: com.jaspersoft.studio.widgets.map; bundle-version="6.10.0"
+                  -> Bundle-SymbolicName: com.jaspersoft.studio.widgets.map; bundle-version="6.10.0.final"
+                     com.jaspersoft.studio.widgets.map [44]
+                       Unresolved requirement: Require-Bundle: com.jaspersoft.studio; bundle-version="6.10.0"
+                         -> Bundle-SymbolicName: com.jaspersoft.studio; bundle-version="6.10.0.final"; singleton:="true"
+         Unresolved requirement: Require-Bundle: com.jaspersoft.studio; bundle-version="6.10.0"; visibility:="reexport"
+           -> Bundle-SymbolicName: com.jaspersoft.studio; bundle-version="6.10.0.final"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1620)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1599)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1571)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1514)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.jaspersoft.studio.svgimporter 4 0 2019-11-16 17:09:10.189
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.jaspersoft.studio.svgimporter [43]
+  Unresolved requirement: Require-Bundle: com.jaspersoft.studio; bundle-version="6.10.0"
+    -> Bundle-SymbolicName: com.jaspersoft.studio; bundle-version="6.10.0.final"; singleton:="true"
+       com.jaspersoft.studio [22]
+         Unresolved requirement: Require-Bundle: org.eclipse.nebula.widgets.cdatetime; bundle-version="1.0.0"; visibility:="reexport"
+         Unresolved requirement: Require-Bundle: com.jaspersoft.studio.properties; bundle-version="6.10.0"; visibility:="reexport"
+           -> Bundle-SymbolicName: com.jaspersoft.studio.properties; bundle-version="6.10.0.final"; singleton:="true"
+              com.jaspersoft.studio.properties [40]
+                Unresolved requirement: Import-Package: org.eclipse.wb.swt
+                  -> Export-Package: org.eclipse.wb.swt; bundle-symbolic-name="net.sf.jasperreports"; bundle-version="6.10.0.final"; version="0.0.0"; uses:="org.eclipse.swt.graphics,org.eclipse.jface.resource"
+                     net.sf.jasperreports [76]
+                       Unresolved requirement: Require-Bundle: org.apache.commons.dbcp; bundle-version="1.4.0"; visibility:="reexport"
+                       Unresolved requirement: Import-Package: org.apache.commons.lang
+                         -> Export-Package: org.apache.commons.lang; bundle-symbolic-name="com.jaspersoft.studio"; bundle-version="6.10.0.final"; version="0.0.0"
+                Unresolved requirement: Require-Bundle: net.sf.jasperreports; bundle-version="6.10.0"
+                  -> Bundle-SymbolicName: net.sf.jasperreports; bundle-version="6.10.0.final"; singleton:="true"
+         Unresolved requirement: Require-Bundle: net.sf.jasperreports; bundle-version="6.10.0"; visibility:="reexport"
+           -> Bundle-SymbolicName: net.sf.jasperreports; bundle-version="6.10.0.final"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1620)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1599)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1571)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1514)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.jaspersoft.studio.widgets.map 4 0 2019-11-16 17:09:10.208
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.jaspersoft.studio.widgets.map [44]
+  Unresolved requirement: Require-Bundle: com.jaspersoft.studio; bundle-version="6.10.0"
+    -> Bundle-SymbolicName: com.jaspersoft.studio; bundle-version="6.10.0.final"; singleton:="true"
+       com.jaspersoft.studio [22]
+         Unresolved requirement: Require-Bundle: org.eclipse.nebula.widgets.cdatetime; bundle-version="1.0.0"; visibility:="reexport"
+         Unresolved requirement: Require-Bundle: com.jaspersoft.studio.properties; bundle-version="6.10.0"; visibility:="reexport"
+           -> Bundle-SymbolicName: com.jaspersoft.studio.properties; bundle-version="6.10.0.final"; singleton:="true"
+              com.jaspersoft.studio.properties [40]
+                Unresolved requirement: Import-Package: org.eclipse.wb.swt
+                  -> Export-Package: org.eclipse.wb.swt; bundle-symbolic-name="net.sf.jasperreports"; bundle-version="6.10.0.final"; version="0.0.0"; uses:="org.eclipse.swt.graphics,org.eclipse.jface.resource"
+                     net.sf.jasperreports [76]
+                       Unresolved requirement: Require-Bundle: org.apache.commons.dbcp; bundle-version="1.4.0"; visibility:="reexport"
+                       Unresolved requirement: Import-Package: org.apache.commons.lang
+                         -> Export-Package: org.apache.commons.lang; bundle-symbolic-name="com.jaspersoft.studio"; bundle-version="6.10.0.final"; version="0.0.0"
+                Unresolved requirement: Require-Bundle: net.sf.jasperreports; bundle-version="6.10.0"
+                  -> Bundle-SymbolicName: net.sf.jasperreports; bundle-version="6.10.0.final"; singleton:="true"
+         Unresolved requirement: Require-Bundle: net.sf.jasperreports; bundle-version="6.10.0"; visibility:="reexport"
+           -> Bundle-SymbolicName: net.sf.jasperreports; bundle-version="6.10.0.final"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1620)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1599)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1571)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1514)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.jaspersoft.studio.widgets.map 4 0 2019-11-16 17:09:10.225
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.jaspersoft.studio.widgets.map [45]
+  Unresolved requirement: Require-Bundle: com.jaspersoft.studio; bundle-version="6.9.0"
+    -> Bundle-SymbolicName: com.jaspersoft.studio; bundle-version="6.10.0.final"; singleton:="true"
+       com.jaspersoft.studio [22]
+         Unresolved requirement: Require-Bundle: org.eclipse.nebula.widgets.cdatetime; bundle-version="1.0.0"; visibility:="reexport"
+         Unresolved requirement: Require-Bundle: com.jaspersoft.studio.properties; bundle-version="6.10.0"; visibility:="reexport"
+           -> Bundle-SymbolicName: com.jaspersoft.studio.properties; bundle-version="6.10.0.final"; singleton:="true"
+              com.jaspersoft.studio.properties [40]
+                Unresolved requirement: Import-Package: org.eclipse.wb.swt
+                  -> Export-Package: org.eclipse.wb.swt; bundle-symbolic-name="net.sf.jasperreports"; bundle-version="6.10.0.final"; version="0.0.0"; uses:="org.eclipse.swt.graphics,org.eclipse.jface.resource"
+                     net.sf.jasperreports [76]
+                       Unresolved requirement: Require-Bundle: org.apache.commons.dbcp; bundle-version="1.4.0"; visibility:="reexport"
+                       Unresolved requirement: Import-Package: org.apache.commons.lang
+                         -> Export-Package: org.apache.commons.lang; bundle-symbolic-name="com.jaspersoft.studio"; bundle-version="6.10.0.final"; version="0.0.0"
+                Unresolved requirement: Require-Bundle: net.sf.jasperreports; bundle-version="6.10.0"
+                  -> Bundle-SymbolicName: net.sf.jasperreports; bundle-version="6.10.0.final"; singleton:="true"
+         Unresolved requirement: Require-Bundle: net.sf.jasperreports; bundle-version="6.10.0"; visibility:="reexport"
+           -> Bundle-SymbolicName: net.sf.jasperreports; bundle-version="6.10.0.final"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1620)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1599)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1571)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1514)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.jaspersoft.studio.xtext.jface 4 0 2019-11-16 17:09:10.239
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.jaspersoft.studio.xtext.jface [46]
+  Unresolved requirement: Require-Bundle: org.eclipse.xtext.ui; bundle-version="[2.0.0,3.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1620)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1599)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1571)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1514)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY net.sf.jasperreports 4 0 2019-11-16 17:09:10.256
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: net.sf.jasperreports [76]
+  Unresolved requirement: Require-Bundle: org.apache.commons.dbcp; bundle-version="1.4.0"; visibility:="reexport"
+  Unresolved requirement: Import-Package: org.apache.commons.lang
+    -> Export-Package: org.apache.commons.lang; bundle-symbolic-name="com.jaspersoft.studio"; bundle-version="6.10.0.final"; version="0.0.0"
+       com.jaspersoft.studio [22]
+         Unresolved requirement: Require-Bundle: org.eclipse.nebula.widgets.cdatetime; bundle-version="1.0.0"; visibility:="reexport"
+         Unresolved requirement: Require-Bundle: com.jaspersoft.studio.properties; bundle-version="6.10.0"; visibility:="reexport"
+           -> Bundle-SymbolicName: com.jaspersoft.studio.properties; bundle-version="6.10.0.final"; singleton:="true"
+              com.jaspersoft.studio.properties [40]
+                Unresolved requirement: Import-Package: org.eclipse.wb.swt
+                  -> Export-Package: org.eclipse.wb.swt; bundle-symbolic-name="net.sf.jasperreports"; bundle-version="6.10.0.final"; version="0.0.0"; uses:="org.eclipse.swt.graphics,org.eclipse.jface.resource"
+         Unresolved requirement: Require-Bundle: net.sf.jasperreports; bundle-version="6.10.0"; visibility:="reexport"
+           -> Bundle-SymbolicName: net.sf.jasperreports; bundle-version="6.10.0.final"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1620)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1599)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1571)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1514)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY net.sf.jasperreports.samples 4 0 2019-11-16 17:09:10.272
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: net.sf.jasperreports.samples [78]
+  Unresolved requirement: Require-Bundle: net.sf.jasperreports; bundle-version="6.10.0"
+    -> Bundle-SymbolicName: net.sf.jasperreports; bundle-version="6.10.0.final"; singleton:="true"
+       net.sf.jasperreports [76]
+         Unresolved requirement: Require-Bundle: org.apache.commons.dbcp; bundle-version="1.4.0"; visibility:="reexport"
+         Unresolved requirement: Import-Package: org.apache.commons.lang
+           -> Export-Package: org.apache.commons.lang; bundle-symbolic-name="com.jaspersoft.studio"; bundle-version="6.10.0.final"; version="0.0.0"
+              com.jaspersoft.studio [22]
+                Unresolved requirement: Require-Bundle: org.eclipse.nebula.widgets.cdatetime; bundle-version="1.0.0"; visibility:="reexport"
+                Unresolved requirement: Require-Bundle: com.jaspersoft.studio.properties; bundle-version="6.10.0"; visibility:="reexport"
+                  -> Bundle-SymbolicName: com.jaspersoft.studio.properties; bundle-version="6.10.0.final"; singleton:="true"
+                     com.jaspersoft.studio.properties [40]
+                       Unresolved requirement: Import-Package: org.eclipse.wb.swt
+                         -> Export-Package: org.eclipse.wb.swt; bundle-symbolic-name="net.sf.jasperreports"; bundle-version="6.10.0.final"; version="0.0.0"; uses:="org.eclipse.swt.graphics,org.eclipse.jface.resource"
+                Unresolved requirement: Require-Bundle: net.sf.jasperreports; bundle-version="6.10.0"; visibility:="reexport"
+                  -> Bundle-SymbolicName: net.sf.jasperreports; bundle-version="6.10.0.final"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1620)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1599)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1571)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1514)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jface 2 0 2019-11-16 17:09:53.500
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-11-16 17:09:53.500
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tcf.te.ui.terminals.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tcf.te.ui.terminals.commands.category,Terminals Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7cd239f6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5ba7391b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-11-16 17:09:53.500
+!MESSAGE A conflict occurred for ALT+CTRL+SHIFT+T:
+Binding(ALT+CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.tcf.te.ui.terminals.command.launchToolbar,Open Terminal,
+		,
+		Category(org.eclipse.tcf.te.ui.terminals.commands.category,Terminals Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@475753dd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.view.ui.command.launchToolbar,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@9203db8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.jface.text 2 0 2019-11-16 17:09:57.616
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-11-16 17:09:57.630
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-11-16 17:09:57.728
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-11-16 17:09:57.739
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-11-16 17:09:57.805
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-11-16 17:09:57.818
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-11-16 17:10:06.192
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\win8.1'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2019-11-16 17:10:08.488
+!MESSAGE Server ‘com.genuitec.eclipse.aeri.server1’ failed with exception: aer.ctrlflow.com. ; version: 2.0.4.v20170307-1435
+!STACK 0
+java.net.UnknownHostException: aer.ctrlflow.com
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:102)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.request(IO.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:68)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2019-11-16 17:10:12.461
+!MESSAGE Server ‘org.jboss.tools’ failed with exception: redhat.ctrlflow.com. ; version: 2.0.4.v20170307-1435
+!STACK 0
+java.net.UnknownHostException: redhat.ctrlflow.com
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:102)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.request(IO.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:68)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2019-11-16 17:10:16.015
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 2.0.4.v20170307-1435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:93)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY org.eclipse.debug.ui 4 120 2019-11-16 17:12:35.219
+!MESSAGE org.eclipse.debug.ui.toggleBreakpointsTargetFactory extension failed to load breakpoint toggle target because the specified id is already registered.  Specified ID is: org.chromium.debug.ui.ChromiumToggleBreakpointTargetFactory
+
+!ENTRY org.eclipse.jface 2 0 2019-11-16 17:12:35.528
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-11-16 17:12:35.528
+!MESSAGE A conflict occurred for CTRL+D:
+Binding(CTRL+D,
+	ParameterizedCommand(Command(io.emmet.eclipse.commands.match_pair_outward,Match Pair Outward,
+		,
+		Category(io.emmet.eclipse.commands.category,Emmet,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@714f1dc4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.delete.line,Delete Line,
+		Delete a line of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5d5f010a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.jface.text 2 0 2019-11-16 17:12:57.468
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-11-16 17:12:57.549
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.ui.workbench 4 2 2019-11-16 17:23:56.289
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.RuntimeException: org.eclipse.core.internal.resources.ResourceException: Resource '/ORSProject0' is not open.
+	at org.chromium.debug.ui.actions.FileBasedAction.readFiles(FileBasedAction.java:117)
+	at org.chromium.debug.ui.actions.FileBasedAction.readFilesFromSelectionObject(FileBasedAction.java:94)
+	at org.chromium.debug.ui.actions.FileBasedAction.access$0(FileBasedAction.java:88)
+	at org.chromium.debug.ui.actions.FileBasedAction$Single.castElement(FileBasedAction.java:44)
+	at org.chromium.debug.ui.actions.SelectionBasedAction$Single.readSelection(SelectionBasedAction.java:53)
+	at org.chromium.debug.ui.actions.SelectionBasedAction.createRunnableFromRawSelection(SelectionBasedAction.java:115)
+	at org.chromium.debug.ui.actions.SelectionBasedAction.selectionChanged(SelectionBasedAction.java:101)
+	at org.eclipse.ui.internal.PluginAction.refreshEnablement(PluginAction.java:206)
+	at org.eclipse.ui.internal.PluginAction.selectionChanged(PluginAction.java:273)
+	at org.eclipse.ui.internal.ObjectActionContributor$1.run(ObjectActionContributor.java:155)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.ObjectActionContributor.contributeObjectActions(ObjectActionContributor.java:158)
+	at org.eclipse.ui.internal.ObjectActionContributorManager.contributeObjectActions(ObjectActionContributorManager.java:104)
+	at org.eclipse.ui.internal.PopupMenuExtender.addObjectActions(PopupMenuExtender.java:317)
+	at org.eclipse.ui.internal.PopupMenuExtender.menuAboutToShow(PopupMenuExtender.java:394)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:339)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:470)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:465)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:497)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:256)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4418)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1084)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5160)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4828)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:359)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1656)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2199)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5110)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:262)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4277)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3818)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Resource '/ORSProject0' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:144)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:60)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:117)
+	at org.eclipse.core.resources.mapping.ResourceTraversal.accept(ResourceTraversal.java:71)
+	at org.eclipse.core.resources.mapping.ResourceMapping.accept(ResourceMapping.java:62)
+	at org.chromium.debug.ui.actions.FileBasedAction.readFiles(FileBasedAction.java:115)
+	... 55 more
+
+!ENTRY org.eclipse.ui 4 4 2019-11-16 17:23:56.546
+!MESSAGE Failed to update action org.chromium.debug.ui.actions.LiveEditWizardAction
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/ORSProject0' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:144)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:60)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:117)
+	at org.eclipse.core.resources.mapping.ResourceTraversal.accept(ResourceTraversal.java:71)
+	at org.eclipse.core.resources.mapping.ResourceMapping.accept(ResourceMapping.java:62)
+	at org.chromium.debug.ui.actions.FileBasedAction.readFiles(FileBasedAction.java:115)
+	at org.chromium.debug.ui.actions.FileBasedAction.readFilesFromSelectionObject(FileBasedAction.java:94)
+	at org.chromium.debug.ui.actions.FileBasedAction.access$0(FileBasedAction.java:88)
+	at org.chromium.debug.ui.actions.FileBasedAction$Single.castElement(FileBasedAction.java:44)
+	at org.chromium.debug.ui.actions.SelectionBasedAction$Single.readSelection(SelectionBasedAction.java:53)
+	at org.chromium.debug.ui.actions.SelectionBasedAction.createRunnableFromRawSelection(SelectionBasedAction.java:115)
+	at org.chromium.debug.ui.actions.SelectionBasedAction.selectionChanged(SelectionBasedAction.java:101)
+	at org.eclipse.ui.internal.PluginAction.refreshEnablement(PluginAction.java:206)
+	at org.eclipse.ui.internal.PluginAction.selectionChanged(PluginAction.java:273)
+	at org.eclipse.ui.internal.ObjectActionContributor$1.run(ObjectActionContributor.java:155)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.ObjectActionContributor.contributeObjectActions(ObjectActionContributor.java:158)
+	at org.eclipse.ui.internal.ObjectActionContributorManager.contributeObjectActions(ObjectActionContributorManager.java:104)
+	at org.eclipse.ui.internal.PopupMenuExtender.addObjectActions(PopupMenuExtender.java:317)
+	at org.eclipse.ui.internal.PopupMenuExtender.menuAboutToShow(PopupMenuExtender.java:394)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:339)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:470)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:465)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:497)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:256)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4418)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1084)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5160)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4828)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:359)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1656)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2199)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5110)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:262)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4277)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3818)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+!SUBENTRY 1 org.eclipse.core.resources 4 372 2019-11-16 17:23:56.548
+!MESSAGE Resource '/ORSProject0' is not open.
+
+!ENTRY org.eclipse.ui.workbench 4 2 2019-11-16 17:23:56.576
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.RuntimeException: org.eclipse.core.internal.resources.ResourceException: Resource '/ORSProject0' is not open.
+	at org.chromium.debug.ui.actions.FileBasedAction.readFiles(FileBasedAction.java:117)
+	at org.chromium.debug.ui.actions.FileBasedAction.readFilesFromSelectionObject(FileBasedAction.java:94)
+	at org.chromium.debug.ui.actions.FileBasedAction.access$0(FileBasedAction.java:88)
+	at org.chromium.debug.ui.actions.FileBasedAction$Single.castElement(FileBasedAction.java:44)
+	at org.chromium.debug.ui.actions.SelectionBasedAction$Single.readSelection(SelectionBasedAction.java:53)
+	at org.chromium.debug.ui.actions.SelectionBasedAction.createRunnableFromRawSelection(SelectionBasedAction.java:115)
+	at org.chromium.debug.ui.actions.SelectionBasedAction.selectionChanged(SelectionBasedAction.java:101)
+	at org.eclipse.ui.internal.PluginAction.refreshEnablement(PluginAction.java:206)
+	at org.eclipse.ui.internal.PluginAction.selectionChanged(PluginAction.java:273)
+	at org.eclipse.ui.internal.ObjectActionContributor$1.run(ObjectActionContributor.java:155)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.ObjectActionContributor.contributeObjectActions(ObjectActionContributor.java:158)
+	at org.eclipse.ui.internal.ObjectActionContributorManager.contributeObjectActions(ObjectActionContributorManager.java:104)
+	at org.eclipse.ui.internal.PopupMenuExtender.addObjectActions(PopupMenuExtender.java:317)
+	at org.eclipse.ui.internal.PopupMenuExtender.menuAboutToShow(PopupMenuExtender.java:394)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:339)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:470)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:465)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:497)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:256)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4418)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1084)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5160)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4828)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:359)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1656)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2199)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5110)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:262)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4277)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3818)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Resource '/ORSProject0' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:144)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:60)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:117)
+	at org.eclipse.core.resources.mapping.ResourceTraversal.accept(ResourceTraversal.java:71)
+	at org.eclipse.core.resources.mapping.ResourceMapping.accept(ResourceMapping.java:62)
+	at org.chromium.debug.ui.actions.FileBasedAction.readFiles(FileBasedAction.java:115)
+	... 55 more
+
+!ENTRY org.eclipse.ui 4 4 2019-11-16 17:23:56.609
+!MESSAGE Failed to update action org.chromium.debug.ui.actions.PushChangesAction
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/ORSProject0' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:144)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:60)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:117)
+	at org.eclipse.core.resources.mapping.ResourceTraversal.accept(ResourceTraversal.java:71)
+	at org.eclipse.core.resources.mapping.ResourceMapping.accept(ResourceMapping.java:62)
+	at org.chromium.debug.ui.actions.FileBasedAction.readFiles(FileBasedAction.java:115)
+	at org.chromium.debug.ui.actions.FileBasedAction.readFilesFromSelectionObject(FileBasedAction.java:94)
+	at org.chromium.debug.ui.actions.FileBasedAction.access$0(FileBasedAction.java:88)
+	at org.chromium.debug.ui.actions.FileBasedAction$Single.castElement(FileBasedAction.java:44)
+	at org.chromium.debug.ui.actions.SelectionBasedAction$Single.readSelection(SelectionBasedAction.java:53)
+	at org.chromium.debug.ui.actions.SelectionBasedAction.createRunnableFromRawSelection(SelectionBasedAction.java:115)
+	at org.chromium.debug.ui.actions.SelectionBasedAction.selectionChanged(SelectionBasedAction.java:101)
+	at org.eclipse.ui.internal.PluginAction.refreshEnablement(PluginAction.java:206)
+	at org.eclipse.ui.internal.PluginAction.selectionChanged(PluginAction.java:273)
+	at org.eclipse.ui.internal.ObjectActionContributor$1.run(ObjectActionContributor.java:155)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.ObjectActionContributor.contributeObjectActions(ObjectActionContributor.java:158)
+	at org.eclipse.ui.internal.ObjectActionContributorManager.contributeObjectActions(ObjectActionContributorManager.java:104)
+	at org.eclipse.ui.internal.PopupMenuExtender.addObjectActions(PopupMenuExtender.java:317)
+	at org.eclipse.ui.internal.PopupMenuExtender.menuAboutToShow(PopupMenuExtender.java:394)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:339)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:470)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:465)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:497)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:256)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4418)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1084)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5160)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4828)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:359)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1656)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2199)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5110)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:262)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4277)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3818)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+!SUBENTRY 1 org.eclipse.core.resources 4 372 2019-11-16 17:23:56.610
+!MESSAGE Resource '/ORSProject0' is not open.
+
+!ENTRY org.eclipse.ui.workbench 4 2 2019-11-16 17:23:56.637
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.RuntimeException: org.eclipse.core.internal.resources.ResourceException: Resource '/ORSProject0' is not open.
+	at org.chromium.debug.ui.actions.FileBasedAction.readFiles(FileBasedAction.java:117)
+	at org.chromium.debug.ui.actions.FileBasedAction.readFilesFromSelectionObject(FileBasedAction.java:94)
+	at org.chromium.debug.ui.actions.FileBasedAction.access$0(FileBasedAction.java:88)
+	at org.chromium.debug.ui.actions.FileBasedAction$Multiple.readSelection(FileBasedAction.java:71)
+	at org.chromium.debug.ui.actions.FileBasedAction$Multiple.readSelection(FileBasedAction.java:1)
+	at org.chromium.debug.ui.actions.SelectionBasedAction.createRunnableFromRawSelection(SelectionBasedAction.java:115)
+	at org.chromium.debug.ui.actions.SelectionBasedAction.selectionChanged(SelectionBasedAction.java:101)
+	at org.eclipse.ui.internal.PluginAction.refreshEnablement(PluginAction.java:206)
+	at org.eclipse.ui.internal.PluginAction.selectionChanged(PluginAction.java:273)
+	at org.eclipse.ui.internal.ObjectActionContributor$1.run(ObjectActionContributor.java:155)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.ObjectActionContributor.contributeObjectActions(ObjectActionContributor.java:158)
+	at org.eclipse.ui.internal.ObjectActionContributorManager.contributeObjectActions(ObjectActionContributorManager.java:104)
+	at org.eclipse.ui.internal.PopupMenuExtender.addObjectActions(PopupMenuExtender.java:317)
+	at org.eclipse.ui.internal.PopupMenuExtender.menuAboutToShow(PopupMenuExtender.java:394)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:339)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:470)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:465)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:497)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:256)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4418)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1084)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5160)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4828)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:359)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1656)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2199)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5110)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:262)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4277)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3818)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Resource '/ORSProject0' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:144)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:60)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:117)
+	at org.eclipse.core.resources.mapping.ResourceTraversal.accept(ResourceTraversal.java:71)
+	at org.eclipse.core.resources.mapping.ResourceMapping.accept(ResourceMapping.java:62)
+	at org.chromium.debug.ui.actions.FileBasedAction.readFiles(FileBasedAction.java:115)
+	... 55 more
+
+!ENTRY org.eclipse.ui 4 4 2019-11-16 17:23:56.658
+!MESSAGE Failed to update action org.chromium.debug.ui.actions.BeautifySourceAction
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/ORSProject0' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:144)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:60)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:117)
+	at org.eclipse.core.resources.mapping.ResourceTraversal.accept(ResourceTraversal.java:71)
+	at org.eclipse.core.resources.mapping.ResourceMapping.accept(ResourceMapping.java:62)
+	at org.chromium.debug.ui.actions.FileBasedAction.readFiles(FileBasedAction.java:115)
+	at org.chromium.debug.ui.actions.FileBasedAction.readFilesFromSelectionObject(FileBasedAction.java:94)
+	at org.chromium.debug.ui.actions.FileBasedAction.access$0(FileBasedAction.java:88)
+	at org.chromium.debug.ui.actions.FileBasedAction$Multiple.readSelection(FileBasedAction.java:71)
+	at org.chromium.debug.ui.actions.FileBasedAction$Multiple.readSelection(FileBasedAction.java:1)
+	at org.chromium.debug.ui.actions.SelectionBasedAction.createRunnableFromRawSelection(SelectionBasedAction.java:115)
+	at org.chromium.debug.ui.actions.SelectionBasedAction.selectionChanged(SelectionBasedAction.java:101)
+	at org.eclipse.ui.internal.PluginAction.refreshEnablement(PluginAction.java:206)
+	at org.eclipse.ui.internal.PluginAction.selectionChanged(PluginAction.java:273)
+	at org.eclipse.ui.internal.ObjectActionContributor$1.run(ObjectActionContributor.java:155)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.ObjectActionContributor.contributeObjectActions(ObjectActionContributor.java:158)
+	at org.eclipse.ui.internal.ObjectActionContributorManager.contributeObjectActions(ObjectActionContributorManager.java:104)
+	at org.eclipse.ui.internal.PopupMenuExtender.addObjectActions(PopupMenuExtender.java:317)
+	at org.eclipse.ui.internal.PopupMenuExtender.menuAboutToShow(PopupMenuExtender.java:394)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:339)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:470)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:465)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:497)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:256)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4418)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1084)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5160)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4828)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:359)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1656)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2199)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5110)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:262)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4277)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3818)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+!SUBENTRY 1 org.eclipse.core.resources 4 372 2019-11-16 17:23:56.659
+!MESSAGE Resource '/ORSProject0' is not open.
+
+!ENTRY tern.eclipse.ide.core 4 0 2019-11-16 17:24:00.574
+!MESSAGE Error while tern file synchronization
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/ORSProject0' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:144)
+	at org.eclipse.core.internal.resources.Resource.checkAccessibleAndLocal(Resource.java:215)
+	at org.eclipse.core.internal.resources.Resource.getSessionProperty(Resource.java:1207)
+	at tern.eclipse.ide.internal.core.resources.IDETernProject.getTernProject(IDETernProject.java:708)
+	at tern.eclipse.ide.internal.core.resources.IDETernProjectSynchronizer.disposeTernProject(IDETernProjectSynchronizer.java:93)
+	at tern.eclipse.ide.internal.core.resources.IDETernProjectSynchronizer.resourceChanged(IDETernProjectSynchronizer.java:69)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:265)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:369)
+	at org.eclipse.core.internal.resources.Resource.broadcastPreDeleteEvent(Resource.java:1885)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:767)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:318)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:155)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SUBENTRY 1 org.eclipse.core.resources 4 372 2019-11-16 17:24:00.575
+!MESSAGE Resource '/ORSProject0' is not open.
